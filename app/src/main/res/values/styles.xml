@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:onClick">clickButton</item>
+    </style>
+
+    <style name="digit_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:background">@drawable/digit_button_selector</item>
+        <item name="android:onClick">clickButton</item>
+    </style>
+
+    <style name="delete_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:background">@drawable/delete_button_selector</item>
+        <item name="android:onClick">clickButton</item>
+    </style>
+</resources>
